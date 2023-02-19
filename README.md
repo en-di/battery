@@ -25,7 +25,7 @@ I, as a user, want to see predicted levels of "battery" after I complete my to-d
 6. [ ] (Optionally) Implement APIs for distributed data storage
 
 ## Team
-- Design: wintermelons
-- Backend: benediktschoeffmann
-- Frontend: TBA
-- PM: valeriavg 
+- Design: __wintermelons__
+- Backend: __benediktschoeffmann__
+- Frontend: *TBA*
+- PM: __valeriavg__
