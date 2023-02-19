@@ -26,6 +26,6 @@ I, as a user, want to see predicted levels of "battery" after I complete my to-d
 
 ## Team
 - Design: wintermelons
-- Backend: @benediktschoeffmann
+- Backend: benediktschoeffmann
 - Frontend: TBA
-- PM: @valeriavg 
+- PM: valeriavg 
