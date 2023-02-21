@@ -1,26 +1,37 @@
-# Supa Fresh Auth
+# Battery
 
-An example app built with Deno's [Fresh](https://fresh.deno.dev/) framework, using [Supabase](https://supabase.com/) and [Redis](https://redis.io/) 
-to implement a simple cookie-based authentication scheme.
+Web app to keep track of one's energy levels and plan tasks accordingly.
 
-[Here's an article]() I wrote about building this.
+## Definition
 
-Consider leaving me a star!
+I, as a user, want to see how much mental energy I have, so I can plan my activities better.
 
-[![Github Repo Stars](https://img.shields.io/github/stars/morlinbrot/supa-fresh-auth?style=social)](https://github.com/morlinbrot/supa-fresh-auth)
+I, as a user, want to keep track of my activities and how each affects me, so I can determine which activities drain and replenish me and to what extent.
 
-## Usage
-You need to have Redis installed and a Supabase project set up.
+I, as a user, want to keep track of things that raise my energy levels. 
 
-Create a `.env` file with the following variables:
-```
-SUPABASE_URL=https://<projectName>.supabase.co
-SUPABASE_KEY=<api_key>
-```
+I, as a user, want to keep track of tasks I need to complete, so that I won't accidentally forget something important.
 
-Run the app:
-```
-deno task start
-```
+I, as a user, want to see predicted levels of "battery" after I complete my to-do list, so that I will be able to stay motivated and feel accomplished by avoiding over- and under-comitting myself.
 
-This will watch the project directory and restart as necessary.
+I, as a user, want to add as many reminders as necessary for me
+
+(Nice to have): I, as a user, want to save my data across devices, so that I won't lose statistics and prediction data
+
+(Nice to have): I, as a user, want my predictions to get better over time
+
+## Plan
+
+0. [ ] Setup public Figma files
+1. [ ] Structure and design app views
+2. [ ] Choose tech stack / tools for web app
+3. [ ] Implement views according to the chosen stack
+4. [ ] Implement data storage functionality
+5. [ ] Implement prediction functionality
+6. [ ] (Optionally) Implement APIs for distributed data storage
+
+## Team
+- Design: __wintermelons__
+- Backend: __benediktschoeffmann__
+- Frontend: *TBA*
+- PM: __valeriavg__
