@@ -21,4 +21,4 @@ supabase.auth.onAuthStateChange(async (event, session) => {
   }
 });
 
-await start(manifest, { plugins: [twindPlugin(twindConfig)], port: 8080 });
+await start(manifest, { plugins: [twindPlugin(twindConfig)], port: 8081 });
